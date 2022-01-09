@@ -1,14 +1,8 @@
 body {
   height: 100vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .screen {
@@ -36,8 +30,7 @@ body {
   left: 34px;
   top: 10px;
   z-index: -1;
-  -webkit-animation: drop 3s ease-in infinite;
-          animation: drop 3s ease-in infinite;
+  animation: drop 3s ease-in infinite;
 }
 
 .screen .output {
@@ -59,24 +52,21 @@ body {
   position: absolute;
   top: 100px;
   left: 30px;
-  -webkit-animation: bar-1 3s ease-in infinite;
-          animation: bar-1 3s ease-in infinite;
+  animation: bar-1 3s ease-in infinite;
 }
 
 .screen .bar-2 {
   position: absolute;
   top: 200px;
   right: 30px;
-  -webkit-animation: bar-2 3s ease-in infinite;
-          animation: bar-2 3s ease-in infinite;
+  animation: bar-2 3s ease-in infinite;
 }
 
 .screen .bar-3 {
   position: absolute;
   top: 300px;
   left: 30px;
-  -webkit-animation: bar-3 3s ease-in infinite;
-          animation: bar-3 3s ease-in infinite;
+  animation: bar-3 3s ease-in infinite;
 }
 
 @-webkit-keyframes drop {
@@ -133,108 +123,90 @@ body {
 
 @-webkit-keyframes bar-1 {
   15% {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
+    transform: rotate(0deg);
     background: black;
   }
   25% {
-    -webkit-transform: rotate(-40deg);
-            transform: rotate(-40deg);
+    transform: rotate(-40deg);
     background: green;
   }
   30% {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
+    transform: rotate(0deg);
     background: black;
   }
 }
 
 @keyframes bar-1 {
   15% {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
+    transform: rotate(0deg);
     background: black;
   }
   25% {
-    -webkit-transform: rotate(-40deg);
-            transform: rotate(-40deg);
+    transform: rotate(-40deg);
     background: green;
   }
   30% {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
+    transform: rotate(0deg);
     background: black;
   }
 }
 
 @-webkit-keyframes bar-2 {
   40% {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
+    transform: rotate(0deg);
     background: black;
   }
   50% {
-    -webkit-transform: rotate(40deg);
-            transform: rotate(40deg);
+    transform: rotate(40deg);
     background: green;
   }
   55% {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
+    transform: rotate(0deg);
     background: black;
   }
 }
 
 @keyframes bar-2 {
   40% {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
+    transform: rotate(0deg);
     background: black;
   }
   50% {
-    -webkit-transform: rotate(40deg);
-            transform: rotate(40deg);
+    transform: rotate(40deg);
     background: green;
   }
   55% {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
+    transform: rotate(0deg);
     background: black;
   }
 }
 
 @-webkit-keyframes bar-3 {
   65% {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
+    transform: rotate(0deg);
     background: black;
   }
   75% {
-    -webkit-transform: rotate(-40deg);
-            transform: rotate(-40deg);
+    transform: rotate(-40deg);
     background: green;
   }
   80% {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
+    transform: rotate(0deg);
     background: black;
   }
 }
 
 @keyframes bar-3 {
   65% {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
+    transform: rotate(0deg);
     background: black;
   }
   75% {
-    -webkit-transform: rotate(-40deg);
-            transform: rotate(-40deg);
+    transform: rotate(-40deg);
     background: green;
   }
   80% {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
+    transform: rotate(0deg);
     background: black;
   }
 }
